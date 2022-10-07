@@ -1,0 +1,77 @@
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color: #001821;
+    min-height: 150px;
+    width: 100%;
+    margin-top: auto;
+}
+
+.footer__container {
+    display: flex;
+    justify-content: space-between;
+    width: 1140px;
+}
+
+.footer__line {
+    border-top: 1px solid #9A9A9A;
+}
+
+.footer__col {
+    display: flex;
+    align-items: center;
+}
+
+.footer__logo {
+    margin-right: 80px;
+}
+
+.footer__socials {
+    display: flex;
+    width: 170px;
+    margin-right: 75px;
+}
+
+.socials__list {
+    display: flex;
+}
+
+.socials__item {
+    height: 36px;
+    width: 36px;
+    margin-right: 10px;
+}
+
+.socials__item:last-child {
+    margin-right: 0;
+}
+
+.socials__link {
+    display: block;
+    text-decoration: none;
+    width: 36px;
+    height: 36px;
+    background: center center no-repeat;
+    opacity: .5;
+    transition: opacity .5s;
+}
+
+.socials__link:hover {
+    opacity: 1;
+}
+
+.icon-telegram {
+    background: url('../../img/icons/css_sprites.png') -122px -10px;
+}
+
+.icon-vk {
+    background: url('../../img/icons/css_sprites.png') -10px -122px;
+}
+
+.icon-fb {
+    background: url('../../img/icons/css_sprites.png') -10px -10px;
+}
+
+.icon-insta {
+    background: url('../../img/icons/css_sprites.png') -10px -66px;
+}
